@@ -1,0 +1,44 @@
+body {
+    background-image: url('pexels-karolina-grabowska-4041198.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+#name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.itens {
+    font-size: 15px;
+}
+
+.texto {
+    position: absolute;
+    top: 160px;
+    left: 680px;
+    width: 380px;
+    height: 560px;
+    padding: 5px;
+    overflow: auto;
+}
+
+
+.titulo {
+    color: rgb(63, 0, 63);
+    margin-left: 65px;;
+    
+}
+
+.foto {
+    font-size: 10px;
+    margin-top: 45px;
+}
+
+.foto img {
+    border-radius: 51px;
+    position: relative;
+    left: 209px;
+}
+  
