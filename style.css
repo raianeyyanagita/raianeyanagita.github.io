@@ -1,44 +1,74 @@
 body {
-    background-image: url('pexels-karolina-grabowska-4041198.jpg');
-    background-repeat: no-repeat;
+    background-image: url(pexels-codioful-\(formerly-gradienta\)-7135019.jpg);
+    background-repeat:no-repeat;
     background-size: cover;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    min-height: 100vh;
+    
+
 }
 
-#name {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.nome {
+    color: #463243;
+    font-size: 11px;
+    padding: 10px;
 }
 
-.itens {
-    font-size: 15px;
-}
 
 .texto {
-    position: absolute;
-    top: 160px;
-    left: 680px;
     width: 380px;
     height: 560px;
-    padding: 5px;
+    padding: 10px;
     overflow: auto;
+    background-color: #b320b352;
+    margin-top: 3rem;
+    margin-right: -6em;
+    border: 5px solid #423562;
+    
 }
 
 
 .titulo {
     color: rgb(63, 0, 63);
-    margin-left: 65px;;
+    margin-left: 18rem;
+   
+    
+    width: fit-content;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    
+
     
 }
 
 .foto {
-    font-size: 10px;
+    font-size: 20px;
     margin-top: 45px;
+    padding: 5px;
+    left: 65px;
+    
 }
-
-.foto img {
-    border-radius: 51px;
-    position: relative;
-    left: 209px;
-}
-  
+  .flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10px;
+  }
+  .segunda-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff95ae4d;
+    width: 324px;
+    height: 324px;
+    margin-top: -15rem;
+    margin-right: -10rem;
+    border: 5px solid #423562;
+  }
