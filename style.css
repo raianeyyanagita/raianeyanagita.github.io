@@ -1,74 +1,76 @@
 body {
-    background-color: rgb(255, 222, 179);
-    background-repeat:no-repeat;
-    background-size: cover;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    min-height: 100vh;
-    
+  background-color: rgb(255, 222, 179);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  min-height: 100vh;
+
 
 }
 
 .nome {
-    color: #463243;
-    font-size: 11px;
-    padding: 10px;
+  color: #463243;
+  font-size: 11px;
+  padding: 10px;
 }
 
 
 .texto {
-    width: 380px;
-    height: 560px;
-    padding: 10px;
-    overflow: auto;
-    background-color: #b320b352;
-    margin-top: 3rem;
-    margin-right: -6em;
-    border: 5px solid #423562;
-    
+  width: 380px;
+  height: 560px;
+  padding: 10px;
+  overflow: auto;
+  background-color: #b320b352;
+  margin-top: 3rem;
+  margin-right: -6em;
+  border: 5px solid #423562;
+
 }
 
 
 .titulo {
-    color: rgb(63, 0, 63);
-    margin-left: 18rem;
-   
-    
-    width: fit-content;
-    padding: 10px 15px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
-    
+  color: rgb(63, 0, 63);
+  margin-left: 18rem;
 
-    
+
+  width: fit-content;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+
+
+
 }
 
 .foto {
-    font-size: 20px;
-    margin-top: 45px;
-    padding: 5px;
-    left: 65px;
-    
+  font-size: 20px;
+  margin-top: 45px;
+  padding: 5px;
+  left: 65px;
+
 }
-  .flex {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0 10px;
-  }
-  .segunda-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #ff95ae4d;
-    width: 324px;
-    height: 324px;
-    margin-top: -15rem;
-    margin-right: -10rem;
-    border: 5px solid #423562;
-  }
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 10px;
+}
+
+.segunda-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff95ae4d;
+  width: 324px;
+  height: 324px;
+  margin-top: -15rem;
+  margin-right: -10rem;
+  border: 5px solid #423562;
+}
