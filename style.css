@@ -5,18 +5,28 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   min-height: 100vh;
-
-
+}
+.cabecalho {
+  color: rgb(63, 0, 63);
+  margin-left: 18rem;
+  width: fit-content;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
-.nome {
-  color: #463243;
-  font-size: 11px;
-  padding: 10px;
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 10px;
 }
 
-
-.texto {
+.conteudo {
   width: 380px;
   height: 560px;
   padding: 10px;
@@ -25,25 +35,19 @@ body {
   margin-top: 3rem;
   margin-right: -6em;
   border: 5px solid #423562;
-
 }
 
-
-.titulo {
-  color: rgb(63, 0, 63);
-  margin-left: 18rem;
-
-
-  width: fit-content;
-  padding: 10px 15px;
+.apresentacao {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2rem;
-
-
-
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff95ae4d;
+    width: 324px;
+    height: 324px;
+    margin-top: -15rem;
+    margin-right: -10rem;
+    border: 5px solid #423562;
 }
 
 .foto {
@@ -51,26 +55,5 @@ body {
   margin-top: 45px;
   padding: 5px;
   left: 65px;
-
 }
 
-.flex {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0 10px;
-}
-
-.segunda-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #ff95ae4d;
-  width: 324px;
-  height: 324px;
-  margin-top: -15rem;
-  margin-right: -10rem;
-  border: 5px solid #423562;
-}
