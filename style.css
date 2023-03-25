@@ -72,12 +72,16 @@ body {
 
 .picture {
   position: absolute;
-  width: 350px;
+  width: fit-content;
   height: 450px;
-  background-color: blue;
   top: 4rem;
   right: -4rem;
 
+}
+
+img {
+  width: auto;
+  height: 100%;
 }
 
 .content {
@@ -102,7 +106,7 @@ body {
   background-color: transparent;
   top: 2rem;
   right: -7rem;
-  border: 4px solid green;
+  border: 4px solid #5ba1f1;
 }
 
 .text {
@@ -129,7 +133,7 @@ body {
 }
 
 .apresentacao {
-  background-color: red;
+
   width: 400px;
   height: 500px;
   padding: 24px;
