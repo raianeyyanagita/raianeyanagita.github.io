@@ -154,7 +154,8 @@ img {
 
 .indice {
   padding: 5px;
-  margin-top: 2rem;
+  margin-top: 4rem;
   font-size: 1rem;
   line-height: 1.6rem;
+  background-image: linear-gradient(to right, #e7c8db, #b9d4ec);
 }
