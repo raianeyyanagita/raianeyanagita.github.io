@@ -67,7 +67,7 @@ body {
   position: relative;
   width: 500px;
   height: 700px;
-  background-color: pink;
+  background-image: linear-gradient(#ff92e6d3, #f3d0e7);
 }
 
 .picture {
@@ -86,17 +86,15 @@ img {
 
 .content {
   position: absolute;
-  width: 400px;
+  width: 350px;
   height: 200px;
-  background-color: rgb(110, 9, 94);
-  bottom: -5rem;
-  right: -11rem;
+  bottom: -4rem;
+  right: -7rem;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: start;
   padding: 15px;
-
 }
 
 .frame {
@@ -122,7 +120,10 @@ img {
 }
 
 .name {
-  align-self: flex-end;
+
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: -1.4rem;
 }
 
 .row {
@@ -136,7 +137,24 @@ img {
 
   width: 400px;
   height: 500px;
-  padding: 24px;
-  margin-top: 1rem;
+  margin-top: -0.3rem;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
 
+}
+
+.subtitulo {
+  align-self: flex-end;
+  background-image: linear-gradient(to right, #8bbef8, #fcc0ed);
+  padding: 8px;
+  font-size: 1rem;
+  margin-top: 0.4rem;
+  margin-right: 2.6rem;
+}
+
+.indice {
+  padding: 5px;
+  margin-top: 2rem;
+  font-size: 1rem;
+  line-height: 1.6rem;
 }
